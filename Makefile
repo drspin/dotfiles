@@ -15,7 +15,7 @@ install-git:
 update: update-vim
 
 update-vim:
-	git subtree pull --prefix vim/bundle/ctrlp.vom https://github.com/kien/ctrlp.vim.git master --squash
+	git subtree pull --prefix vim/bundle/ctrlp.vim https://github.com/kien/ctrlp.vim.git master --squash
 	git subtree pull --prefix vim/bundle/jellybeans.vim https://github.com/nanotech/jellybeans.vim.git master --squash
 	git subtree pull --prefix vim/bundle/mustache.vim https://github.com/juvenn/mustache.vim.git master --squash
 	git subtree pull --prefix vim/bundle/syntastic https://github.com/scrooloose/syntastic.git master --squash
