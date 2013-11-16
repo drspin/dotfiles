@@ -15,12 +15,12 @@ install-git:
 update: update-vim
 
 update-vim:
-	git subtree pull --prefix vim/bundle/ctrlp https://github.com/kien/ctrlp.vim.git master --squash
-	git subtree pull --prefix vim/bundle/jellybeans https://github.com/nanotech/jellybeans.vim.git master --squash
-	git subtree pull --prefix vim/bundle/mustache https://github.com/juvenn/mustache.vim.git master --squash
+	git subtree pull --prefix vim/bundle/ctrlp.vom https://github.com/kien/ctrlp.vim.git master --squash
+	git subtree pull --prefix vim/bundle/jellybeans.vim https://github.com/nanotech/jellybeans.vim.git master --squash
+	git subtree pull --prefix vim/bundle/mustache.vim https://github.com/juvenn/mustache.vim.git master --squash
 	git subtree pull --prefix vim/bundle/syntastic https://github.com/scrooloose/syntastic.git master --squash
-	git subtree pull --prefix vim/bundle/coffee-script https://github.com/kchmck/vim-coffee-script.git master --squash
-	git subtree pull --prefix vim/bundle/fugitive https://github.com/tpope/vim-fugitive.git master --squash
-	git subtree pull --prefix vim/bundle/autoclose https://github.com/Townk/vim-autoclose.git master --squash
-	git subtree pull --prefix vim/bundle/go https://github.com/jnwhiteh/vim-golang.git master --squash
+	git subtree pull --prefix vim/bundle/vim-coffee-script https://github.com/kchmck/vim-coffee-script.git master --squash
+	git subtree pull --prefix vim/bundle/vim-fugitive https://github.com/tpope/vim-fugitive.git master --squash
+	git subtree pull --prefix vim/bundle/vim-autoclose https://github.com/Townk/vim-autoclose.git master --squash
+
 
