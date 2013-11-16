@@ -1,6 +1,6 @@
 DOT_HOME=~/.dotfiles
 
-install: install-vim install-tmux install-git
+install: install-vim install-tmux install-git update
 
 install-vim:
 	ln -fs $(DOT_HOME)/vim ~/.vim
