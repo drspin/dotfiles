@@ -71,7 +71,8 @@ if has("statusline") && !&cp
     au InsertLeave * hi StatusLine term=reverse ctermfg=0 ctermbg=253 guifg=Black guibg=Grey
   endif
 
- set laststatus=2  " always show the status bar
+  " always show the status bar
+  set laststatus=2
 
   " Start the status line
   set statusline=%f\ %m\ %r
