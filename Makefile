@@ -21,6 +21,4 @@ update-vim:
 	git subtree pull --prefix vim/bundle/syntastic https://github.com/scrooloose/syntastic.git master --squash
 	git subtree pull --prefix vim/bundle/vim-coffee-script https://github.com/kchmck/vim-coffee-script.git master --squash
 	git subtree pull --prefix vim/bundle/vim-fugitive https://github.com/tpope/vim-fugitive.git master --squash
-	git subtree pull --prefix vim/bundle/vim-autoclose https://github.com/Townk/vim-autoclose.git master --squash
-
 
